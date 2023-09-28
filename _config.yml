@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Thach
-middle_name: 
+middle_name: Nguyen
 last_name: Le
 email: thach.lenguyen@ucd.ie
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -275,8 +275,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Le]
+  first_name: [Thach, Nguyen]
 
   style: apa
   locale: en
