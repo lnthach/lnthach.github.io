@@ -1,6 +1,41 @@
 ---
 ---
 
+@InProceedings{mrsqm,
+author="Nguyen, Thach Le
+and Ifrim, Georgiana",
+editor="Guyet, Thomas
+and Ifrim, Georgiana
+and Malinowski, Simon
+and Bagnall, Anthony
+and Shafer, Patrick
+and Lemaire, Vincent",
+title="Fast Time Series Classification with Random Symbolic Subsequences",
+booktitle="Advanced Analytics and Learning on Temporal Data",
+year="2023",
+publisher="Springer International Publishing",
+address="Cham",
+pages="50--65",
+abstract="Symbolic representations of time series have proven to be effective for time series classification, with many recent approaches including BOSS, WEASEL, and MrSEQL. These classifiers use various elaborate methods to select discriminative features from symbolic representations of time series. As a result, although they have competitive results regarding accuracy, their classification models are relatively expensive to train. Most if not all of these approaches have missed an important research question: are these elaborate feature selection methods actually necessary? ROCKET, a state-of-the-art time series classifier, outperforms all of them without utilizing any feature selection techniques. In this paper, we answer this question by contrasting these classifiers with a very simple method, named MrSQM. This method samples random subsequences from symbolic representations of time series. Our experiments on 112 datasets of the UEA/UCR benchmark demonstrate that MrSQM can quickly extract useful features and learn accurate classifiers with the logistic regression algorithm. MrSQM completes training and prediction on 112 datasets in 1.5 h for an accuracy comparable to existing efficient state-of-the-art methods, e.g., MrSEQL (10 h) and ROCKET (2.5 h). Furthermore, MrSQM enables the user to trade-off accuracy and speed by controlling the type and number of symbolic representations, thus further reducing the total runtime to 20 min for a similar level of accuracy. With these results, we show that random subsequences extracted from symbolic transformations can be as effective as the more sophisticated and expensive feature selection methods proposed in previous works. We propose MrSQM as a strong baseline for future research in time series classification, especially for approaches based on symbolic representations of time series.",
+isbn="978-3-031-24378-3"
+}
+
+
+@article{mrseql,
+    title = {{Interpretable time series classification using linear models and multi-resolution multi-domain symbolic representations}},
+    year = {2019},
+    journal = {Data Mining and Knowledge Discovery},
+    author = {Le Nguyen, Thach and Gsponer, Severin and Ilie, Iulia and O’Reilly, Martin and Ifrim, Georgiana},
+    number = {4},
+    month = {7},
+    pages = {1183--1222},
+    volume = {33},
+    publisher = {Springer New York LLC},
+    doi = {10.1007/s10618-019-00633-3},
+    issn = {1573756X},
+    keywords = {Interpretable classifier, Linear models, Multi-resolution multi-domain symbolic representations, SAX, SEQL, SFA, Time series classification}
+}
+
 @inproceedings{fvseql:7930038,
 author={Thach Le Nguyen and Severin Gsponer and Georgiana Ifrim},
 booktitle={2017 IEEE 33rd International Conference on Data Engineering (ICDE)},
@@ -13,3 +48,5 @@ keywords={feature extraction;learning (artificial intelligence);pattern classifi
 doi={10.1109/ICDE.2017.142},
 ISSN={},
 month={April}}
+
+
