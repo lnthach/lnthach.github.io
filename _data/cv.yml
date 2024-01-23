@@ -2,9 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Thach Le Nguyen
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Thach Le Nguyen    
     - name: Languages
       value: Vietnamese, English
 

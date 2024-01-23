@@ -6,7 +6,7 @@ subtitle: <a href='#'>University College Dublin</a>, Dublin, Ireland
 
 profile:
   align: right
-  image: lnthach.png
+  image: lnthach.jpg
   image_circular: false # crops the image to make it circular  
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

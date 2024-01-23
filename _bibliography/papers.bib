@@ -1,6 +1,42 @@
 ---
 ---
 
+
+@Article{Dhariyal2023,
+author={Dhariyal, Bhaskar
+and Le Nguyen, Thach
+and Ifrim, Georgiana},
+title={Scalable classifier-agnostic channel selection for multivariate time series classification},
+journal={Data Mining and Knowledge Discovery},
+year={2023},
+month={Mar},
+day={01},
+volume={37},
+number={2},
+pages={1010-1054},
+abstract={Accuracy is a key focus of current work in time series classification. However, speed and data reduction are equally important in many applications, especially when the data scale and storage requirements rapidly increase. Current multivariate time series classification (MTSC) algorithms need hundreds of compute hours to complete training and prediction. This is due to the nature of multivariate time series data which grows with the number of time series, their length and the number of channels. In many applications, not all the channels are useful for the classification task, hence we require methods that can efficiently select useful channels and thus save computational resources. We propose and evaluate two methods for channel selection. Our techniques work by representing each class by a prototype time series and performing channel selection based on the prototype distance between classes. The main hypothesis is that useful channels enable better separation between classes; hence, channels with a larger distance between class prototypes are more useful. On the UEA MTSC benchmark, we show that these techniques achieve significant data reduction and classifier speedup for similar levels of classification accuracy. Channel selection is applied as a pre-processing step before training state-of-the-art MTSC algorithms and saves about 70{\%} of computation time and data storage with preserved accuracy. Furthermore, our methods enable efficient classifiers, such as ROCKET, to achieve better accuracy than using no selection or greedy forward channel selection. To further study the impact of our techniques, we present experiments on classifying synthetic multivariate time series datasets with more than 100 channels, as well as a real-world case study on a dataset with 50 channels. In both cases, our channel selection methods result in significant data reduction with preserved or improved accuracy.},
+issn={1573-756X},
+doi={10.1007/s10618-022-00909-1},
+url={https://doi.org/10.1007/s10618-022-00909-1}
+}
+
+
+  
+@article{spectro2022,
+title = {Classification of cow diet based on milk Mid Infrared Spectra: A data analysis competition at the “International Workshop on Spectroscopy and Chemometrics 2022”},
+journal = {Chemometrics and Intelligent Laboratory Systems},
+volume = {234},
+pages = {104755},
+year = {2023},
+issn = {0169-7439},
+doi = {https://doi.org/10.1016/j.chemolab.2023.104755},
+url = {https://www.sciencedirect.com/science/article/pii/S0169743923000059},
+author = {Maria Frizzarin and Giulio Visentin and Alessandro Ferragina and Elena Hayes and Antonio Bevilacqua and Bhaskar Dhariyal and Katarina Domijan and Hussain Khan and Georgiana Ifrim and Thach Le Nguyen and Joe Meagher and Laura Menchetti and Ashish Singh and Suzy Whoriskey and Robert Williamson and Martina Zappaterra and Alessandro Casa},
+keywords = {Chemometrics, Fourier transform mid-infrared spectroscopy, Machine learning, Milk quality, Food authenticity},
+abstract = {In April 2022, the Vistamilk SFI Research Centre organized the second edition of the “International Workshop on Spectroscopy and Chemometrics – Applications in Food and Agriculture”. Within this event, a data challenge was organized among participants of the workshop. Such data competition aimed at developing a prediction model to discriminate dairy cows’ diet based on milk spectral information collected in the mid-infrared region. In fact, the development of an accurate and reliable discriminant model for dairy cows’ diet can provide important authentication tools for dairy processors to guarantee product origin for dairy food manufacturers from grass-fed animals. Different statistical and machine learning modelling approaches have been employed during the workshop, with different pre-processing steps involved and different degree of complexity. The present paper aims to describe the statistical methods adopted by participants to develop such classification model.}
+}
+
+
 @InProceedings{mrsqm,
 author="Nguyen, Thach Le
 and Ifrim, Georgiana",
@@ -36,7 +72,7 @@ isbn="978-3-031-24378-3"
     keywords = {Interpretable classifier, Linear models, Multi-resolution multi-domain symbolic representations, SAX, SEQL, SFA, Time series classification}
 }
 
-@inproceedings{fvseql:7930038,
+@inproceedings{fvseql,
 author={Thach Le Nguyen and Severin Gsponer and Georgiana Ifrim},
 booktitle={2017 IEEE 33rd International Conference on Data Engineering (ICDE)},
 title={Time Series Classification by Sequence Learning in All-Subsequence Space},
